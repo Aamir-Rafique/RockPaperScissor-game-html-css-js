@@ -1,0 +1,21 @@
+@media (max-width: 721px) {
+
+    .container {
+        margin-top: 10vmax;
+        gap: 6vmax;
+    }
+
+    .container .options {
+        width: 88%;
+    }
+
+
+
+    .container .score-board {
+        width: 30%;
+    }
+
+    footer p{
+        font-size: 1.3vmax;
+    }
+}

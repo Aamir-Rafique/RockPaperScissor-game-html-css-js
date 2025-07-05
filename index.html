@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor - Game</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobStyle.css">
     <link rel="icon" type="image/png" href="images/rock-paper-scissors.png" />
 
 </head>
 
 <body>
+    <nav>
+        <a href="https://github.com/Aamir-Rafique" id="logo-link">
+            <img title="Aamir Rafique" src="img/logo-1.webp" alt="Logo" id="logo-img" />
+        </a>
+    </nav>
     <div class="nav">
         <h1>👊🖐✌ Rock Paper Scissor Game</h1>
     </div>
-    <div class="body">
+    <div class="container">
         <div class="options">
             <div class="img" id="rock"></div>
             <div class="img" id="paper"></div>
@@ -24,25 +30,31 @@
         <div class="score-board">
             <div class="sec1">
                 <h2 id="scoreUser">0</h2>
-                <h2 id="scoreComputer">0</h2>
+                <h3>You</h3>
             </div>
             <div class="sec2">
-                <h3>You</h3>
+                <h2 id="scoreComputer">0</h2>
                 <h3>Comp</h3>
             </div>
         </div>
-        <div class="computerChoice">
-            Computer choice:&nbsp; <div id="compChoice"></div>
-        </div>
+        <p class="computerChoice">
+            CPU's choice:&nbsp;
+            <span id="compChoice">....</span>
+        </p>
         <div class="instruction" id="result">
             Pick Your Move
         </div>
     </div>
 
 
+    <footer class="mt-6 text-sm text-center text-gray-700">
+        <p> Made with ❤️ by <a href="https://github.com/Aamir-Rafique" target="_blank"
+                class="text-blue-600 hover:underline">Aamir Rafique</a> </p>
+        <p>
+    </footer>
 
 
-    <script src="script.js"></script>
 </body>
+<script src="script.js"></script>
 
 </html>
